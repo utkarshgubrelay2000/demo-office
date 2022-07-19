@@ -8,8 +8,8 @@ export default function Home() {
     <section id="home-div " className="mt-4">
       <div className="">
         <div className="row">
-          <div className="col-md-2 "></div>
-          <div className="col-md-8 row center-div">
+          <div className="col-md-2 col-sm-12 "></div>
+          <div className=" center-div col-md-8 col-sm-12 row ">
             <div className="col-md-12">
               <h6 className="return">
                 <svg
@@ -251,7 +251,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-2 ">
+          <div className="col-md-2 col-sm-12 ">
             <div className=" mt-4 row profile-ratio">
               <div className="col-8">
               <h6>65%</h6>
