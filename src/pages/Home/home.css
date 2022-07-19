@@ -1,0 +1,146 @@
+#home-div{
+    padding: 20px;
+}
+
+.return{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+
+display: flex;
+
+text-decoration-line: underline;
+
+
+color: #1C1C1C;
+}
+.heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 2vw;
+margin-top: 1vw;
+line-height: 119%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+/* Primary */
+
+color: #1C1C1C;
+}
+.profile-ratio {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 2vw;
+line-height: 119%;
+/* or 29px */
+
+
+align-items: center;
+text-transform: capitalize;
+
+/* Primary */
+
+color: #1C1C1C;
+}
+.profile-ratio span{
+    font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+/* Tertiary */
+
+color: #808080;
+}
+.profile-details{
+    width:20vw;
+    height: 100px;
+    background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+padding: 16px;
+margin: 12px;
+}
+.profile-details h6{
+    margin-bottom: 10px;
+    font-size: 2vw;
+}
+.edit{
+    float: right;
+    background: #FFFFFF;
+/* Divider */
+height: 2vw;
+width: 2vw;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+border: 1px solid #E5E5E5;
+border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+    .edit{
+        display: none;
+    }
+    .heading{
+        font-size: 4vw;
+    }
+    .profile-ratio{
+        font-size: 8vw;
+        margin: auto;
+        text-align: center;
+    }
+    .profile-details {
+       width: 45vw;
+       margin: 8px !important;
+      
+    }
+    .center-div{
+        margin: auto;
+    }
+    .profile-info{
+        width: 100% !important;
+      
+        height: 100% !important;
+    }
+   
+}
+.profile-details span{
+    font-family: 'Poppins';
+    float: end;
+    margin-top: 16px;
+}
+.profile-details svg{
+    margin-right: 8px;
+}
+.profile-info{
+    background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+height: 400px;
+width: 63vw;
+margin: 12px;
+}
+.piechart{
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(158.26deg, #F39136 12.58%, #FF3D9A 108.7%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -32px;
+}
+.profile-desc{
+    padding: 12px;
+margin: 24px;
+border-bottom: #808080 2px solid;
+}

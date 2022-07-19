@@ -3,7 +3,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 
 // import { useRecoilValue } from 'recoil';
 // import { studentState } from "./student-build/Atom";
@@ -17,13 +17,7 @@ function App() {
         
             <Route path="/" exact component ={Home} />
         
-        </Switch>
-        
-       
-
-    
-          
-          
+        </Switch>   
       </Router>
     </div>
   );
